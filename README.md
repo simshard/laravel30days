@@ -4,5 +4,5 @@
  App based on  Laracast series by J Way
  # 30-days-to-learn-laravel
 
- a review of  everything in Laravel which has probably changed a lot sin Laravel v6
+ a review of  everything in Laravel which has probably changed a lot since Laravel v6
 
