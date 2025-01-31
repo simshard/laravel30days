@@ -1,3 +1,6 @@
 <x-layout>
-    Aboot Page
+    <x-slot:heading>  
+        About
+    </x-slot:heading>
+    About Us
 </x-layout>
