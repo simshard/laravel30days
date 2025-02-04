@@ -4,6 +4,7 @@
     </x-slot:heading>
 
     <h2 class="font-bold text-lg">{{ $job['title'] }}</h2>
+    <p class="font-light text-gray-500 mb-2">{{ $job->employer->name }}</p>
 
     <p>
         This job pays {{ $job['salary'] }} per year.
