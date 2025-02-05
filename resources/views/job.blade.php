@@ -9,4 +9,5 @@
     <p>
         This job pays {{ $job['salary'] }} per year.
     </p>
+    <p class="mt-4 text-xs text-gray-500"><a href="/jobs">&laquo; Back </a></p>
 </x-layout>
