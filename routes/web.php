@@ -19,6 +19,7 @@ Route::resource('/jobs', JobController::class);
 
  Route::get('/login', [LoginController::class, 'create']) ;
  Route::post('/login', [LoginController::class, 'store']) ;
-
+ Route::post('/logout', [LoginController::class, 'destroy']);
+ 
  Route::get('/register', [RegisterController::class, 'create']);
  Route::post('/register', [RegisterController::class, 'store']);

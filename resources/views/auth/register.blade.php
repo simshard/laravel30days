@@ -38,10 +38,10 @@
             </x-form-field>
 
             <x-form-field>
-                <x-form-label for="password_confirm">Confirm Password</x-form-label>
+                <x-form-label for="password_confirmation">Confirm Password</x-form-label>
                 <div class="mt-2">
-                  <x-form-input name="password_confirm" id="password_confirm" placeholder="confirm password"  type="password" required></x-form-input>
-                  <x-form-error name="password_confirm"/>
+                  <x-form-input name="password_confirmation" id="password_confirmation" placeholder="confirm password"  type="password" required></x-form-input>
+                  <x-form-error name="password_confirmation"/>
                 </div>
             </x-form-field>
             </div>
