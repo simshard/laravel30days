@@ -76,7 +76,7 @@ class JobController extends Controller
      */
     public function update(Request $request, Job $job)
     {
-        // authorize (ToDo.)
+        Gate::authorize('edit-job', $job);
         request()->validate([
             'title' => ['required', 'min:3'],
             'salary' => ['required']

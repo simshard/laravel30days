@@ -22,7 +22,7 @@ Route::get('/jobs/{job}', [JobController::class, 'show']);
 
 Route::get('/jobs/{job}/edit', [JobController::class, 'edit'])
     ->middleware('auth')
-    ->can('edit', 'job');
+    ->can('edit-job', 'job');
 
 Route::patch('/jobs/{job}', [JobController::class, 'update']);
 Route::delete('/jobs/{job}', [JobController::class, 'destroy']);
